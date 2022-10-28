@@ -1,0 +1,32 @@
+:root {
+    --background-color: #FDFDFD;
+    --heading-color: #db2777;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    max-width: 100vw;
+    background: var(--background-color);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    color: var(--heading-color);
+}
+
+* {
+    text-decoration-color: var(--heading-color);
+}
+
+:has(> .poll-option) {
+    list-style: none;
+}
+
+.poll-option {
+    
+}
